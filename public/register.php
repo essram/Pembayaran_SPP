@@ -31,14 +31,6 @@ if($_POST){
 
 ?>
 
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
