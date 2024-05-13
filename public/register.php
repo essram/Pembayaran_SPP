@@ -7,7 +7,7 @@ if($_POST){
     $email = $_POST['email'];
     $password = $_POST['pwd'];
 
-    include 'connection.php';
+    include_once 'connection.php';
 
     //check register data
     $sqlCheck =  "select * from siswa where nis = '".$nis."' or email = '".$email."'";

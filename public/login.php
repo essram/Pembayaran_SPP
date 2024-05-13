@@ -15,7 +15,7 @@ require_once "connection.php";
 $email = $password = "";
 $email_err = $password_err = "";
 
-// Memproses data yang dikirim dari form saat submit
+// Memproses data yang dikirim dari form saat submit    
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // Validasi email
